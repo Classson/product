@@ -1,4 +1,10 @@
 body {
     display: grid;
+    background-color: #FFFFFF;
+    color: #123478;
 }
 
+.header {
+    background-color: #2BBDB9;
+    color: #1C78BF;
+}
