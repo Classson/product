@@ -1,10 +1,16 @@
 body {
     display: grid;
+    grid-template-columns: 1fr;
     background-color: #FFFFFF;
-    color: #123478;
+    color: #1F2859;
 }
 
 .header {
     background-color: #2BBDB9;
     color: #1C78BF;
+}
+
+.flavors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
