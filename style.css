@@ -5,7 +5,7 @@ body {
     color: #1F2859;
 }
 
-.header {
+#header {
     background-color: #2BBDB9;
     color: #1C78BF;
 }
@@ -19,7 +19,6 @@ body {
     font-size: 38px;
 }
 
-#contact {
-    padding-bottom: 10px;
-    padding-top: 10px;
+#footer {
+    background-color: #2BBDB9;
 }
