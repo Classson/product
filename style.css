@@ -14,3 +14,12 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+#links {
+    font-size: 38px;
+}
+
+#contact {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
