@@ -1,13 +1,18 @@
+
 body {
     display: grid;
     grid-template-columns: 1fr;
     background-color: #FFFFFF;
     color: #1F2859;
+    font-family: sans-serif;
 }
 
 #header {
     background-color: #2BBDB9;
+    background-size: cover;
     color: #1C78BF;
+    width: 100%;
+    margin: 0px;
 }
 
 #flavors {
@@ -21,4 +26,19 @@ body {
 
 #footer {
     background-color: #2BBDB9;
+}
+
+#FAQs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.question {
+    background-color: rgb(37, 182, 193);
+    margin-top: 0px;
+}
+
+.qa {
+    background-color: rgb(178, 236, 240);
+    margin: 10px;
 }
