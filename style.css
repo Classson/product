@@ -8,16 +8,19 @@ body {
 }
 
 #header {
-    background-color: #2BBDB9;
+    background-color: rgba(0, 196, 214, 1);
     background-size: cover;
     color: #1C78BF;
     width: 100%;
     margin: 0px;
 }
 
+
 #flavors {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    text-align: center;
+    background-color: rgba(179, 241, 255, 1);
 }
 
 #links {
@@ -25,7 +28,7 @@ body {
 }
 
 #footer {
-    background-color: #2BBDB9;
+    background-color: rgba(0, 196, 214, 1);
 }
 
 img {
@@ -40,19 +43,17 @@ img {
 .qa {
     display: grid;
     grid-template-rows: 100px 1fr;
-    background-color: rgb(178, 236, 240);
     margin: 10px;
 }
 
 .question {
     text-align: center;
-    background-color: rgb(37, 182, 193);
+    background-color: rgba(0, 196, 214, 1);
     padding: 0px 20px 0px 20px;
-}
-
-.question h3 {
 }
 
 .answer {
     padding: 20px;
+    line-height: 1.5;
+    background-color: rgba(179, 241, 255, 1);
 }
