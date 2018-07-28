@@ -20,7 +20,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
     text-align: center;
-    background-color: rgba(179, 241, 255, 1);
+    grid-gap: 10px;
 }
 
 #links {
@@ -33,6 +33,14 @@ body {
 
 img {
     width: 200px;
+    padding-bottom: 20px 0px 20px 0px;
+}
+
+.flavor {
+    display: grid;
+    grid-template-rows: 60px 1fr;
+    justify-content: center;
+    align-content: center;
 }
 
 #FAQs {
@@ -56,4 +64,8 @@ img {
     padding: 20px;
     line-height: 1.5;
     background-color: rgba(179, 241, 255, 1);
+}
+
+.name {
+    background-color: rgba(0, 196, 214, 1);
 }
