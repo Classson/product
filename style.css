@@ -28,17 +28,44 @@ body {
     background-color: #2BBDB9;
 }
 
+img {
+    width: 200px;
+}
+
 #FAQs {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.question {
-    background-color: rgb(37, 182, 193);
-    margin-top: 0px;
-}
-
 .qa {
+    display: grid;
+    grid-template-rows: 150px 1fr;
     background-color: rgb(178, 236, 240);
     margin: 10px;
+}
+
+.question {
+    text-align: center;
+    background-color: rgb(37, 182, 193);
+    padding: 0px 20px 0px 20px;
+}
+
+.answer {
+    padding: 20px;
+}
+
+@media (max-width: 350px) {
+  #FAQs {
+      grid-template-columns: 1fr 1fr;
+      
+  }
+
+}
+
+@media (max-width: 250px) {
+  #FAQs {
+      grid-template-columns: 1fr;
+      
+  }
+
 }
