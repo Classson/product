@@ -154,9 +154,27 @@ i {
 @media (max-width: 450px) {
     #header {
     flex-direction: column;
+    justify-content: space-around;
+    }
+    
+    #nav {
+    grid-template-columns: repeat(4, 90px);
     }
     
     #logo {
         width: 100px;
     }
+    
+    #FAQ:target {
+        padding-top: 175px;
+    }
+
+    #about:target {
+        padding-top: 175px;
+    }
+
+    #flav:target {
+        padding-top: 175px;
+}
+
 }
