@@ -64,10 +64,14 @@ i {
     border: solid 2px #1F2859;
 }
 
+#logo img{
+    height: 40px;
+}
+
 #nav {
     display: grid;
     grid-template-columns: repeat(4, 120px);
-    align-items: flex-end;
+    align-items: center;
     margin: 15px;
 }
 
@@ -155,6 +159,10 @@ i {
     #header {
     flex-direction: column;
     justify-content: space-around;
+    }
+    
+    #main {
+    margin: 175px 25px 25px 25px;
     }
     
     #nav {
