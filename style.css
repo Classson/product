@@ -21,7 +21,7 @@ body {
 }
 
 #header {
-    background-color: rgba(0, 196, 214, 1);
+    background-color: rgba(0, 196, 214, .9);
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -41,7 +41,6 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 120px);
     align-items: flex-end;
-    background-color: rgba(0, 196, 214, 1);
     margin: 15px;
 }
 
@@ -53,6 +52,11 @@ body {
     color: #1F2859;
     background-color: rgba(179, 241, 255, 1);
     text-decoration: none;
+}
+
+#info {
+    padding: 25px;
+    background-color: rgba(179, 241, 255, .6);
 }
 
 #flavors {
@@ -103,7 +107,12 @@ body {
 .answer {
     padding: 20px;
     line-height: 1.5;
-    background-color: rgba(179, 241, 255, 1);
+    background-color: rgba(179, 241, 255, .6);
+}
+
+#order-box {
+    padding: 25px;
+    background-color: rgba(179, 241, 255, .6);
 }
 
 .name {
