@@ -22,7 +22,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    position: fixed;
 }
 
 #logo {
@@ -105,4 +105,16 @@ body {
 
 .name {
     background-color: rgba(0, 196, 214, 1);
+}
+
+#FAQ:target {
+    padding-top: 100px;
+}
+
+#about:target {
+    padding-top: 100px;
+}
+
+#flav:target {
+    padding-top: 100px;
 }
