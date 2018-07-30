@@ -86,6 +86,10 @@ i {
     text-decoration: none;
 }
 
+.int:hover {
+    background-color: rgba(179, 241, 290, 1);
+}
+
 #info {
     padding: 25px;
     background-color: rgba(179, 241, 255, .6);
@@ -193,7 +197,7 @@ i {
 
 }
 
-@media (max-width: 3450px) {
+/*@media (max-width: 3450px) {
 
     #logo {
         display: none;
@@ -206,4 +210,4 @@ i {
     padding: 5px;
     }
     
-}
+}*/
