@@ -88,7 +88,7 @@ i {
 }
 
 .nav-link:hover {
-    background-color: rgba(179, 241, 290, 1);
+    background-color: hsl(187, 52%, 70%);
 }
 
 #info {
