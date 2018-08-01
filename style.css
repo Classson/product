@@ -55,6 +55,10 @@ i {
     color: #1F2859;
 }
 
+i:hover {
+    transform: scale(1.1);
+}
+
 #logo {
     height: 40px;
     margin: 10px 35px 10px 35px;
@@ -88,6 +92,7 @@ i {
 
 .nav-link:hover {
     background-color: hsl(187, 52%, 70%);
+    transition: 0.5s;
 }
 
 #info {
