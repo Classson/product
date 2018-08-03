@@ -50,6 +50,7 @@ body {
 }
 
 #footer {
+    width: 100%;
     background-color: rgba(85, 196, 214, 1);
     display: flex;
     flex-direction: row;
@@ -206,13 +207,7 @@ iframe, object, embed {
     padding: 5px;
     margin: 3px;
     font-size: 15px;
-    border: solid 2px #1F2859;
-    text-align: center;
-    color: #1F2859;
-    background-color: rgba(179, 241, 255, 1);
-    text-decoration: none;
 }
-    
     
     #FAQ:target {
         padding-top: 120px;
@@ -248,11 +243,6 @@ iframe, object, embed {
     width: auto;
     margin: 5px;
     padding: 7px;
-    border: solid 2px #1F2859;
-    text-align: center;
-    color: #1F2859;
-    background-color: rgba(179, 241, 255, 1);
-    text-decoration: none;
 }
     
     #main {
@@ -273,8 +263,7 @@ iframe, object, embed {
     }
     
     #footer h2{
-        font-size: 20px;
-        
+        font-size: 20px;   
     }
     
     #quest {
@@ -294,3 +283,59 @@ iframe, object, embed {
 }
 
 }
+
+@media (max-width: 360px) {
+    #logo {
+    display:none;
+    }
+    
+    #footer h2{
+    display:none; 
+    }
+    
+    #nav-bar {
+    display: grid;
+    grid-template-columns: 110px 110px;
+    align-items: center;
+}
+    .nav-link {
+    height: 18px; 
+    padding: 5px;
+    margin: 3px;
+    font-size: 15px;
+
+}
+    
+    #main {
+    margin: 100px 25px 25px 25px;
+    }
+    
+    #FAQ:target {
+        padding-top: 120px;
+    }
+
+    #about:target {
+        padding-top: 120px;
+    }
+
+    #flav:target {
+        padding-top: 120px;
+}
+    
+    #links {
+    padding: 10px;
+    font-size: 30px;
+    justify-content: center;
+    line-height: 2;
+}
+    
+}
+
+/*.slide-content .scroller {
+  width: 1024px;
+}
+
+* {
+  border: 1px solid #f00 !important;
+}
+*/
