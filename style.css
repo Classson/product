@@ -294,18 +294,3 @@ iframe, object, embed {
 }
 
 }
-
-/*@media (max-width: 3450px) {
-
-    #logo {
-        display: none;
-    }
-    
-    #nav {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 35px);
-    margin: 15px;
-    padding: 5px;
-    }
-    
-}*/
