@@ -32,6 +32,23 @@ body {
     position: fixed;
 }
 
+#nav-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    align-items: center;
+    margin: 15px;
+}
+
+.nav-link {
+    margin: 5px;
+    padding: 7px;
+    border: solid 2px #1F2859;
+    text-align: center;
+    color: #1F2859;
+    background-color: rgba(179, 241, 255, 1);
+    text-decoration: none;
+}
+
 #footer {
     background-color: rgba(85, 196, 214, 1);
     display: flex;
@@ -73,24 +90,6 @@ i:hover {
     height: 40px;
 }
 
-
-#nav-bar {
-    display: grid;
-    grid-template-columns: repeat(4, 120px);
-    align-items: center;
-    margin: 15px;
-}
-
-.nav-link {
-    margin: 5px;
-    padding: 7px;
-    border: solid 2px #1F2859;
-    text-align: center;
-    color: #1F2859;
-    background-color: rgba(179, 241, 255, 1);
-    text-decoration: none;
-}
-
 .nav-link:hover {
     background-color: hsl(187, 52%, 70%);
     transition: 0.5s;
@@ -121,6 +120,15 @@ i:hover {
     align-content: center;
     background-color: white;
 }
+
+.name {
+    background-color: rgba(85, 196, 214, 1);
+}
+
+.name h2 {
+    margin-top: 15px; 
+}
+
 
 iframe, object, embed {
     max-width: 100%;
@@ -165,12 +173,12 @@ iframe, object, embed {
     background-color: rgba(179, 241, 255, .6);
 }
 
-.name {
-    background-color: rgba(85, 196, 214, 1);
+#order-box p {
+   padding-bottom: 20px; 
 }
 
-.name h2 {
-    margin-top: 15px; 
+#footer h2 {
+    padding: 10px;
 }
 
 #FAQ:target {
@@ -186,11 +194,66 @@ iframe, object, embed {
 }
 
 
+@media (max-width: 700px) {
+
+    #nav-bar {
+    display: grid;
+    grid-template-columns: 130px 130px;
+    align-items: center;
+}
+    .nav-link {
+    height: 18px; 
+    padding: 5px;
+    margin: 3px;
+    font-size: 15px;
+    border: solid 2px #1F2859;
+    text-align: center;
+    color: #1F2859;
+    background-color: rgba(179, 241, 255, 1);
+    text-decoration: none;
+}
+    
+    
+    #FAQ:target {
+        padding-top: 120px;
+    }
+
+    #about:target {
+        padding-top: 120px;
+    }
+
+    #flav:target {
+        padding-top: 120px;
+}
+    
+}
+
 @media (max-width: 450px) {
     #header {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(85, 196, 214, .9);
     }
+    
+    #nav-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    align-items: center;
+    margin: 15px;
+}
+    
+    .nav-link {
+    height: auto;
+    width: auto;
+    margin: 5px;
+    padding: 7px;
+    border: solid 2px #1F2859;
+    text-align: center;
+    color: #1F2859;
+    background-color: rgba(179, 241, 255, 1);
+    text-decoration: none;
+}
     
     #main {
     margin: 175px 25px 25px 25px;
@@ -207,6 +270,11 @@ iframe, object, embed {
     
     .flavor {
         background-color: rgba(179, 241, 255, .6);
+    }
+    
+    #footer h2{
+        font-size: 20px;
+        
     }
     
     #quest {
