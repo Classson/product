@@ -119,6 +119,7 @@ i:hover {
     display: grid;
     grid-template-rows: 60px 1fr;
     align-content: center;
+    background-color: white;
 }
 
 iframe, object, embed {
@@ -129,6 +130,7 @@ iframe, object, embed {
     width: 200px;
     padding: 20px 0px 20px 0px;
     margin:auto;
+    
 }
 
 #FAQs {
@@ -165,6 +167,10 @@ iframe, object, embed {
 
 .name {
     background-color: rgba(85, 196, 214, 1);
+}
+
+.name h2 {
+    margin-top: 15px; 
 }
 
 #FAQ:target {
