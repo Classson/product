@@ -53,6 +53,7 @@ body {
 
 i {
     color: #1F2859;
+    padding: 7px;
 }
 
 i:hover {
@@ -147,6 +148,10 @@ iframe, object, embed {
     padding: 0px 20px 0px 20px;
 }
 
+#quest {
+    padding-top: 15px;
+}
+
 .answer {
     padding: 20px;
     line-height: 1.5;
@@ -196,6 +201,10 @@ iframe, object, embed {
     
     .flavor {
         background-color: rgba(179, 241, 255, .6);
+    }
+    
+    #quest {
+        padding-top: 18px;
     }
     
     #FAQ:target {
